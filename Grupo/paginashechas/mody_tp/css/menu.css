@@ -1,0 +1,144 @@
+/* Estilos para el menú principal */
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.submenu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c9b4b4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submenu:hover .dropdown-content {
+    display: block;
+}
+
+
+.submenu {
+    position: relative;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.submenu .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0; 
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submenu:hover .dropdown-content {
+    display: block;
+}
+
+
+.submenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu .dropdown-content li {
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center; 
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+
+.submenu .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0; 
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submenu:hover .dropdown-content {
+    display: block;
+}
+
+
+.submenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu .dropdown-content li {
+    margin: 0;
+}
+.submenu .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0; 
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submenu:hover .dropdown-content {
+    display: block;
+}
+
+
+.submenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu .dropdown-content li {
+    margin: 0;
+}

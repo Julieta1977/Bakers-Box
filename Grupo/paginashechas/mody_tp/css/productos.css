@@ -1,0 +1,23 @@
+div.paragraph {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px solid #ccc;
+    background-color: #F8E8EE;
+   
+}
+
+div.paragraph p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    animation: backwards;
+}
+
+div.paragraph img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+

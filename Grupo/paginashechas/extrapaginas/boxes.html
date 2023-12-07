@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/t_productos.css">
+    <script src="../scrpit/button.js"></script>
+    
+
+    <header>
+      <div class="logo">
+          <img src="../imagenes/logo/logoremovidochiquito.png" alt="Logo">
+      </div>
+          <ul>
+              <li><a href="../index.html">Inicio</a></li>
+               <li class="dropdown">
+                 <a href="javascript:void(0)" class="dropbtn">Productos</a>
+                 <div class="dropdown-content">
+                  <a href="../../paginashechas/extrapaginas/bombones.html">Bombones</a>
+                        <a href="../../paginashechas/extrapaginas/boxes.html">Boxes</a>
+                        <a href="../../paginashechas/extrapaginas/budines.html">Budines</a>
+                        <a href="../../paginashechas/extrapaginas/oreos.html">Oreos</a>
+                        <a href="../../paginashechas/extrapaginas/pascuas.html">Pascuas</a>
+                        <a href="../../paginashechas/extrapaginas/Shots.html">Shots</a>
+                        <a href="../../paginashechas/extrapaginas/tartas.html">Tartas</a>
+                        <a href="../../paginashechas/extrapaginas/tortas.html">Tortas</a>
+                </div>
+               <li><a href="../contacto.html">Contacto</a></li>
+               <li><a href="../sobremi.html">Sobre mí</a></li>
+               <button id="openOrderForm">Hacer Pedido</button>
+              
+            </ul>
+      
+    
+  </header>
+  <title> boxes</title>
+
+</head>
+<body>
+
+<h2>Productos</h2>
+
+<table>
+  <tr class="category">
+    <td colspan="4">Boxes (de cumpleaños y desayunos)</td>
+  </tr>
+  <tr>
+    <th>Cantidad de producto</th>
+    <th>El producto</th>
+    <th>Imagen del producto </th>
+    <th>El precio </th>
+  </tr>
+  
+  <tr>
+    <td>1</td>
+    <td>boxes de cumpleaños</td>
+    <td><img src="../imagenes/Boxes/box1.jpg" alt=" box1" onclick="openImage('imagenes/Bombones/Bombones1.jpg')"></td>
+    <td>$10000</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>boxes de desayunos </td>
+    <td><img src="../imagenes/Boxes/box2.jpg" alt=" bombones" onclick="openImage('imagenes/Bombones/Bombones3.jpg')"></td>
+    <td>$10000</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>boxes de desayunos</td>
+    <td><img src="../imagenes/Boxes/box3.jpg" alt=" bombones" onclick="openImage('imagenes/Bombones/Bombones4.jpg')"></td>
+    <td>$10000</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>boxes de desayunos</td>
+    <td><img src="../imagenes/Boxes/desayuno1.jpg" alt=" bombones" onclick="openImage('imagenes/Bombones/corazonpiñata1.jpg')"></td>
+    <td>$10000</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>boxes de cumpleaños</td>
+    <td><img src="../imagenes/Boxes/desayuno2.jpg" alt=" bombones" onclick="openImage('imagenes/Bombones/corazonpiñata2.jpg')"></td>
+    <td>$10000</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>boxes de desayunos</td>
+    <td><img src="../imagenes/Boxes/desayuno3.jpg" alt=" tabletas" onclick="openImage('imagenes/Bombones/tabletas1.jpg')"></td>
+    <td>$10000</td>
+  </tr>
+  <tr>
+        <td>1</td>
+        <td>boxes de cumpleaños</td>
+        <td><img src="../imagenes/Boxes/desayuno4.jpg" alt=" tabletas" onclick="openImage('imagenes/Bombones/tabletas2.jpg')"></td>
+        <td>$10000</td>
+   </tr>
+    <td></td>
+
+</table>
+<script src="../scrpit/button.js"></script>
+<script>
+  function openImage(imagePath) {
+    window.open(imagePath, "_blank");
+  }
+</script>
+
+</body>
+</html>

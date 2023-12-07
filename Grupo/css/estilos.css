@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Nanum+Myeongjo:wght@400;700&family=Playfair+Display:wght@400;600;800&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif, 'Nanum Myeongjo', serif, 'Playfair Display', serif, 'Source Sans Pro', sans-serif;
+}
+
+/* BARRA DE NAVEGACION Y LOGO */
+header {
+    background: linear-gradient(to top, rgb(237, 253, 187), rgb(225, 250, 148));
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.submenu {
+    display: block;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 30px;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 30px;
+    float: left;
+}
+
+.menu a:hover {
+    background-color: rgb(213, 246, 113);
+    color: black;
+}
+
+/* IMAGEN Y SUBTITULO HEADER */
+.enc-logo {
+    width: 20%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* SECCION SOBRE MI */
+section.sec-2 {
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: green;
+}
+
+section p {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+section img {
+    height: 80%;
+}
+
+/* FOOTER */
+.footer {
+    background: linear-gradient(to top, rgb(237, 253, 187), rgb(225, 250, 148));
+    color: black;
+    padding: 70px 0;
+}
+
+.container-footer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+ul {
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
